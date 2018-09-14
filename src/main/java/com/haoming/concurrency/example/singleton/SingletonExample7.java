@@ -22,7 +22,7 @@ public class SingletonExample7 {
         private SingletonExample7 singleton;
 
         // JVM will ensure that this method will only be called once.
-        // Instance will only be initialized when get called.
+        // Instance will only be initialized when being called.
         Singleton() {
             singleton = new SingletonExample7();
         }
